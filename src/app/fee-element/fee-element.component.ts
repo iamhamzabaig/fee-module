@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeeElementComponent implements OnInit {
 
-  userName: string = "";
-  fatherName= "";
+  elementName: string = "Element Name"
 
   constructor() { }
 
