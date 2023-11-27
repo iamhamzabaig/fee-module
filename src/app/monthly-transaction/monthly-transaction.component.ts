@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./monthly-transaction.component.scss']
 })
 export class MonthlyTransactionComponent implements OnInit {
-  userName: string= "Hamza Munawar";
+  amount: string = 'Amount';
+
+  element: string = "Element";
   
   constructor() { }
 
