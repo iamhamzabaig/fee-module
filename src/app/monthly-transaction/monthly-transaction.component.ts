@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MonthlyTransactionComponent implements OnInit {
   userName: string= "Hamza Munawar";
+  
   constructor() { }
 
   ngOnInit(): void {
